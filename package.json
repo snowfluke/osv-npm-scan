@@ -1,0 +1,36 @@
+{
+  "name": "osv-npm-scan",
+  "version": "1.0.0",
+  "author": {
+    "name": "Awal Ariansyah",
+    "email": "awalariansyah7@gmail.com"
+  },
+  "description": "Scan package.json vulnerabilities in OSV Databases",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/snowfluke/osv-npm-scan.git"
+  },
+  "keywords": [
+    "vulnerabilities",
+    "osv",
+    "scanner",
+    "npm",
+    "module",
+    "security"
+  ],
+  "homepage": "https://github.com/snowfluke/osv-npm-scan",
+  "bugs": {
+    "url": "https://github.com/snowfluke/osv-npm-scan/issues"
+  },
+  "bin": {
+    "osv-npm-scan": "./index.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=16"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "node-fetch": "^3.3.0"
+  }
+}
