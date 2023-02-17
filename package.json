@@ -25,6 +25,7 @@
   "bin": {
     "osv-npm-scan": "./index.js"
   },
+  "main": "index.js",
   "type": "module",
   "engines": {
     "node": ">=16"
